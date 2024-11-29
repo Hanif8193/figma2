@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 
 import Contact from './components/Contact'
 import Playground from './components/Playground'
+import Footer from './components/Footer'
 
 function Home() {
   return (
@@ -13,7 +14,8 @@ function Home() {
       <Hero/>
       <Playground/>
        <Contact/>
-    </div>
+       <Footer/>
+           </div>
   )
 }
 
